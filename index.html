@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kostka od Kamilka<3</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #333;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .red {
+            background-color: #e74c3c;
+        }
+
+        .blue {
+            background-color: #3498db;
+        }
+
+        .green {
+            background-color: #2ecc71;
+        }
+
+        .orange {
+            background-color: #f39c12;
+        }
+
+        .purple {
+            background-color: #9b59b6;
+        }
+
+        .yellow {
+            background-color: #f1c40f;
+        }
+
+        .teal {
+            background-color: #008080;
+        }
+
+        .pink {
+            background-color: #ff69b4;
+        }
+
+        .brown {
+            background-color: #8b4513;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="square red">Czerwony</div>
+        <div class="square blue">Niebieski</div>
+        <div class="square green">Zielony</div>
+        <div class="square orange">Pomarańczowy</div>
+        <div class="square purple">Fioletowy</div>
+        <div class="square yellow">Żółty</div>
+        <div class="square teal">Turkusowy</div>
+        <div class="square pink">Różowy</div>
+        <div class="square brown">Brązowy</div>
+    </div>
+</body>
+</html>
